@@ -1,9 +1,0 @@
-codeonce\spring\repository\ProduitRepository.class
-codeonce\spring\service\ProduitServiceIMP.class
-codeonce\spring\controller\ProduitController.class
-codeonce\spring\entity\Produit.class
-codeonce\spring\service\ProduitService.class
-codeonce\spring\config\SpringFoxConfig.class
-codeonce\spring\repository\CategorieRepository.class
-codeonce\spring\TesttechApplication.class
-codeonce\spring\entity\Categorie.class

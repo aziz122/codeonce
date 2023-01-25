@@ -1,0 +1,15 @@
+<label for="categorie-select">choisir une categorie:</label>
+
+<select [(ngModel)]= "selectedCategorie" name="categorie" id="categorie-select">
+    
+    <option  *ngFor="let categorie of categories; index as i" [ngValue]="categorie.libelleCategorie" > {{categorie.libelleCategorie}}</option>
+   
+</select>
+<button (click)="getProduit(selectedCategorie)">Rechercher</button>
+
+<ul *ngFor="let produit of produits">
+    <ul>libelleProduit : {{produit.libelleProduit}}</ul>
+    <ul> prix :{{produit.prix}}</ul>
+    <ul>quantite produit :{{produit.quantiteproduit}}</ul>
+</ul>
+
